@@ -1,0 +1,16 @@
+//Custom
+$colours: (
+  primary: #545454,
+  secondary: #f7f7f7,
+  underline: #ff9900,
+  dark: #000000,
+);
+
+$font-primary: "Abril Fatface", serif;
+$font-secondary: "Raleway", sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

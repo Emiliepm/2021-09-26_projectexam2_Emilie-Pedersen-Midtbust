@@ -1,0 +1,68 @@
+.card-text {
+  font-family: $font-secondary;
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+.card-title,
+.card-text {
+  color: getColour(primary);
+  font-family: $font-secondary;
+}
+
+.card-title {
+  font-size: 28px;
+  color: getColour(primary);
+}
+
+.card {
+  background-color: getColour(secondary);
+  border-color: getColour(primary);
+  border-width: 1px;
+  font-family: $font-primary;
+}
+
+.card__enquiry.card {
+  background-color: getColour(primary);
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+
+.card__enquiry.card .card-text {
+  color: getColour(secondary);
+  text-align: center;
+  max-width: 100%;
+}
+
+.card__enquiry.card .card-title {
+  color: getColour(secondary);
+  text-align: center;
+}
+
+.admin__card {
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-color: getColour(primary);
+  border-width: 2px;
+  border-style: getColour(secondary) ridge;
+  margin-bottom: 2%;
+}
+
+.admin__card .card-title {
+  text-align: center;
+  color: getColour(primary);
+  text-decoration: underline;
+  text-decoration-color: getColour(secondary);
+  margin-top: 1%;
+}
+
+.admin__card .card-text {
+  color: getColour(primary);
+}
+
+.card-img-top {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}

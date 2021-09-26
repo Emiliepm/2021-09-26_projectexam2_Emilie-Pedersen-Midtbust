@@ -1,0 +1,50 @@
+h1 {
+  color: getColour(primary);
+  text-align: center;
+  font-family: $font-primary;
+  margin-top: 3%;
+  text-decoration: underline;
+  text-decoration-color: getColour(underline);
+}
+
+h2 {
+  font-family: $font-primary;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  color: getColour(primary);
+}
+
+h3 {
+  text-align: center;
+  font-family: $font-secondary;
+  color: getColour(primary);
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+h4 {
+  margin-top: 1%;
+  font-family: $font-secondary;
+  color: getColour(primary);
+}
+p {
+  text-align: left;
+  font-family: $font-secondary;
+  max-width: 600px;
+  margin-top: 1%;
+}
+
+.intro__text {
+  color: getColour(primary);
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: getColour(underline);
+}

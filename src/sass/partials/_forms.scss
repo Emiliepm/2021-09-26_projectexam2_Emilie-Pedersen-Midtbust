@@ -1,0 +1,61 @@
+form {
+  max-width: 450px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: getColour(form-bg);
+  color: getColour(primary);
+  padding-top: 4%;
+background-color: #545454;
+
+}
+
+
+input,
+textarea {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 95%;
+  padding: 8px;
+  font-family: $font-secondary;
+  border-radius: 4px;
+  background-color: getColour(secondary);
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: getColour(primary);
+}
+
+textarea {
+  height: 200px;
+  outline: none;
+  border: 2px;
+  max-width: 95%;
+}
+
+
+.form__error {
+  background-color: $warning;
+  color: getColour(dark);
+  padding: 5px 5px;
+  max-width: 95%;
+  margin-bottom: 1%;
+}
+
+.contact-form,
+.enquiry__form {
+  margin-top: 2%;
+  text-align: left;
+  border-radius: 2px;
+  color: getColour(secondary);
+  margin-bottom: 4%;
+}
+
+
+.add--light{
+  color: getColour(secondary);
+  margin-bottom: 4%;
+}
+::placeholder{
+  color:#545454;
+}

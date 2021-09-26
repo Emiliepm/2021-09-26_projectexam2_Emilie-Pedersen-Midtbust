@@ -1,0 +1,50 @@
+.hero__img {
+  background-image: url(../../images/bergen_flower.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+}
+
+.hero__section {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__title {
+  color: getColour(secondary);
+  text-transform: uppercase;
+  font-size: 58px;
+  font-family: $font-primary;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero__subheading {
+  color: getColour(secondary);
+  font-family: $font-secondary;
+}
+
+.hero__section button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 5%;
+  background-color: getColour(secondary);
+  border-color: getColour(accent);
+  color: getColour(accent);
+  outline: none;
+  border-radius: 4%;
+  font-family: $font-secondary;
+}
+
+.hero__section button:hover {
+  background-color: getColour(accent);
+  border-color: getColour(secondary);
+  color: getColour(secondary);
+}

@@ -1,0 +1,91 @@
+.btn__logout {
+  color: getColour(secondary);
+  padding: 5px 10px;
+  background-color: getColour(primary);
+  border-radius: 3px;
+  outline: none;
+  margin: 0 auto;
+}
+
+.btn__logout:hover {
+  background-color: getColour(secondary);
+  color: getColour(primary);
+}
+
+button {
+  background-color: getColour(primary);
+  border-color: getColour(secondary);
+  padding: 5px 15px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  display: inline-block;
+  color: getColour(secondary);
+  margin-top: 4%;
+  margin-bottom: 2%;
+  outline: none;
+  border: 2px solid getColour(primary);
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: getColour(secondary);
+  color: getColour(primary);
+  border-width: 2px;
+}
+
+.mid__btn {
+  background-color: getColour(primary);
+  padding: 10px 30px;
+  text-align: center;
+  display: flex;
+  color: getColour(secondary);
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin: 0 auto;
+  outline: none;
+  border: 2px solid;
+  border-radius: 3px;
+}
+
+.mid__btn:hover {
+  background-color: getColour(secondary);
+  color: getColour(primary);
+}
+
+.enquiry__btn {
+  background-color: getColour(primary);
+  color: getColour(secondary);
+  padding: 10px 15px;
+  border-color: getColour(secondary);
+  border-radius: 3px;
+  font-family: $font-primary;
+
+}
+
+.enquiry__btn:hover {
+  background-color: getColour(secondary);
+  color: getColour(primary);
+  border-color: getColour(secondary);
+  font-family: $font-primary;
+}
+
+.hero__section button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 5%;
+  background-color: getColour(primary);
+  border-color: getColour(secondary);
+  color: getColour(secondary);
+  outline: none;
+  border-radius: 4%;
+  font-family: $font-primary;
+  font-size: 20px;
+}
+
+.hero__section button:hover {
+  background-color: getColour(secondary);
+  border-color: getColour(primary);
+  color: getColour(primary);
+}

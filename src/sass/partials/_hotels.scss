@@ -1,0 +1,8 @@
+.filter {
+  max-width: 80%;
+}
+
+.filter__input {
+  background-color: getColour(secondary);
+  padding: 10px 20px;
+}

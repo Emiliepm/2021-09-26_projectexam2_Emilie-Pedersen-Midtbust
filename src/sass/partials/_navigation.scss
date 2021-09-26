@@ -1,0 +1,16 @@
+.navbar {
+  margin-left: 3%;
+}
+
+.navbar-toggler {
+  background-color: getColour(primary);
+  color: getColour(secondary);
+  margin-right: 3%;
+  outline: none;
+  border: none;
+}
+
+.navbar-toggler:hover {
+  background-color: getColour(primary);
+  color: getColour(secondary);
+}

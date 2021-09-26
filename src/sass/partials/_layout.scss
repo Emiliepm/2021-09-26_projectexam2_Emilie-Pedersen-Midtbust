@@ -1,0 +1,56 @@
+//Universal
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-primary;
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: getColour(primary);
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  padding: 5px;
+  margin-top: 5%;
+}
+
+.icons {
+  display: flex;
+  margin: 10px;
+}
+
+footer h3 {
+  color: getColour(secondary);
+  font-size: 16px;
+  margin-right: 5%;
+  margin-top: 1.5%;
+}
+
+.icons img {
+  width: 50px;
+  height: 50px;
+}
